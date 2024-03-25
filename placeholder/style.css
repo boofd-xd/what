@@ -75,6 +75,15 @@ $duration: 25s;
   }
 }
 
+/* image */
+.morealmostcentered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  border-style: solid;
+}
+
 /* Container holding the image and the text */
 .container {
   position: relative;
@@ -126,3 +135,4 @@ $duration: 25s;
   transform: translate(-50%, 500%);
   border-style: solid;
 }
+
