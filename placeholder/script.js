@@ -310,9 +310,6 @@
 	};
 
 pna = new ParticleNetworkAnimation();	pna.init($('.particle-network-animation')[0]);
-
-	window.addEventListener("load", (event) => {
-  new cursoreffects.clockCursor();
 });
 
 }());
